@@ -19,8 +19,9 @@ Note!!! :
 15. In terminal type again: require("crypto").randomBytes(64).toString("hex");
 16. Press enter
 17. Copy all between quotes(not quotes included!)
-18. Paste in to .env file after REFRESH_TOKEN_SECRET=
-19. Save file.
+18. Type into .env file: ACCESS_TOKEN_SECRET=
+19. Paste in to .env file after REFRESH_TOKEN_SECRET=
+20. Save file.
 
 Nodemon docs: https://github.com/remy/nodemon#nodemon
 PM2 docs: https://pm2.keymetrics.io/docs/usage/quick-start/
