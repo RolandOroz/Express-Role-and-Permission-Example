@@ -8,6 +8,19 @@ To start programm:
 5. You can use PM2 or Nodemon for monitoring and auto restart server
 6. Nodemon in dev mode: npm run dev
 7. PM2 in dev mode: pm2 start server --watch
+Note!!! : 
+7. create .env file in your project
+9. Type into .env file: ACCESS_TOKEN_SECRET=
+10. Open terminal type: node (and hit enter)
+11. In the same terminal then type: require("crypto").randomBytes(64).toString("hex");
+12. Hit enter
+13. Copy all between quotes(not quotes included!)
+14. Paste in to .env file after ACCESS_TOKEN_SECRET=
+15. In terminal type again: require("crypto").randomBytes(64).toString("hex");
+16. Press enter
+17. Copy all between quotes(not quotes included!)
+18. Paste in to .env file after REFRESH_TOKEN_SECRET=
+19. Save file.
 
 Nodemon docs: https://github.com/remy/nodemon#nodemon
 PM2 docs: https://pm2.keymetrics.io/docs/usage/quick-start/
